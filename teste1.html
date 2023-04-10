@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loja de Roupas</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Estilos para o corpo da página */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilos para o cabeçalho */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+
+    nav li {
+      display: inline;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    /* Estilos para a seção de início */
+    #inicio {
+      background-color: #f8f8f8;
+      padding: 60px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    .botao {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    /* Estilos para a seção de produtos */
+    #produtos {
+      padding: 40px;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: inline-block;
+      width: 200px;
+      margin: 0 10px;
+      text-align: left;
+    }
+
+    img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .preco {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Estilos para a seção de contato */
+    #contato {
+      background-color: #f8f8f8;
+      padding: 60px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    button[type="submit"] {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+    }
+
+    /* Estilos para o rodapé */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Conteúdo da página aqui -->
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Loja de Roupas</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Loja Dayane Calado, as melhores Roupas para seu treino!</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio">
+    <h2>Encontre as melhores roupas para você</h2>
+    <p>Explore nossa coleção exclusiva de roupas femininas, masculinas e infantis.</p>
+    <a href="#produtos" class="botao">Ver Produtos</a>
+  </section>
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <ul>
+      <li>
+        <img src="imagem1.jpg" alt="Blusa Floral">
+        <h3>Camiseta Esportiva </h3>
+        <p>Uma blusa leve e elegante, perfeita para o seu treino.</p>
+        <span class="preco">R$ 49,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+      <li>
+        <img src="imagem2.jpg" alt="Calça Jeans">
+        <h3>Legging esportiva </h3>
+        <p>legging ideal para o dia a dia e seu treino.</p>
+        <span class="preco">R$ 79,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+      <!-- Adicione mais produtos aqui -->
+      <li>
+        <img src="imagem3.jpg" alt="Calça Jeans">
+        <h3>Top esportiva </h3>
+        <p>Top ideal para o dia a dia e seu treino.</p>
+        <span class="preco">R$ 29,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+      <li>
+        <img src="imagem4.jpg" alt="Calça Jeans">
+        <h3>Short esportiva </h3>
+        <p>Short ideal para o dia a dia e seu treino.</p>
+        <span class="preco">R$ 29,90</span>
+        <a href="#" class="botao">Comprar</a>
+      </li>
+    </ul>
+  </section>
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Se tiver alguma dúvida ou sugestão, entre em contato conosco.</p>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023. Loja de Roupas.</p>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>
+
